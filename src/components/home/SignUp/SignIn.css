@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Arial", sans-serif; 
+  color: #999;
+  /* background-image: url('../../../css/images/image-background\ copy.jpg'); */
+  background-color: #000;
+}
+
+.form {
+ height: 340px;
+  width: 300px;
+  text-align: left;
+  margin-left: 500px;
+  background-color: #000;
+  padding: 150px 40px;
+  margin-top: 140px;
+}
+.form #email {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.form #password {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+h5 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+.formdiv {
+    padding-top: 0px;
+    margin-top: -135px;
+}
+.form-input {
+  width: 220px;
+  height: 40px;
+  background: grey;
+}
+.btn-block {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background: red;
+  color: #fff;
+  font-size: inherit;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+}
+a {
+  color: inherit;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px) {
+    .form{
+        margin-left: 200px;
+    }
+}
+@media only screen and (min-width: 549px) and (max-width: 780px) {
+    .form{
+        margin-left: 200px;
+    }
+}

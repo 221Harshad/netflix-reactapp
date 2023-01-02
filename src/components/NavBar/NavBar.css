@@ -1,0 +1,31 @@
+.logo{
+   position: fixed;
+   left: 20px;
+   width: 80px;
+}
+.avatar{
+    position: fixed;
+    right: 20px;
+    width: 30px;
+}
+.navbar{
+    position: fixed;
+    top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #111; */
+}
+.log-out{
+    position: fixed;
+    right: 70px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    
+}
+.log-out a:link{
+    text-decoration: none;
+    
+}
